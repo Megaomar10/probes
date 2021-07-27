@@ -19,3 +19,11 @@ impar.addEventListener("click", () => {
         }
     }
 })
+
+clear.addEventListener("click", () => {
+    for (var i = 0; i < cajas.length; i++) {
+
+        cajas[i].style.background = "red";
+
+    }
+})
